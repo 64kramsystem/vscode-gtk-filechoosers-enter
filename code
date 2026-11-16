@@ -1,6 +1,6 @@
 #!/bin/sh
 repo_dir=$(dirname -- "$(readlink -f -- "$0")")
-module_path="$repo_dir/libgtk-save-enter.so"
+module_path="$repo_dir/libgtk-filechoosers-enter.so"
 if [ ! -r "$module_path" ]; then
 	printf 'Run make in %s first.\n' "$repo_dir" >&2
 	exit 1
